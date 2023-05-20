@@ -9,15 +9,55 @@ interface Question {
       {
         question: "What is the capital of France?",
         options: ["Paris", "London", "Berlin", "Rome"],
-        answer: 1,
+        answer: 0,
       },
       {
         question: "What is the largest planet in our solar system?",
         options: ["Mars", "Jupiter", "Saturn", "Neptune"],
-        answer: 2,
+        answer: 1,
       },
-      // Add more questions...
+      {
+        question: "Which country is known as the 'Land of the Rising Sun'?",
+        options: ["China", "Japan", "Thailand", "India"],
+        answer: 1,
+      },
+      {
+        question: "Who painted the Mona Lisa?",
+        options: ["Leonardo da Vinci", "Pablo Picasso", "Vincent van Gogh", "Michelangelo"],
+        answer: 0,
+      },
+      {
+        question: "What is the largest ocean in the world?",
+        options: ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+        answer: 3,
+      },
+      {
+        question: "Which planet is known as the 'Red Planet'?",
+        options: ["Mars", "Venus", "Mercury", "Saturn"],
+        answer: 0,
+      },
+      {
+        question: "Who wrote the play 'Romeo and Juliet'?",
+        options: ["William Shakespeare", "George Orwell", "Charles Dickens", "Jane Austen"],
+        answer: 0,
+      },
+      {
+        question: "What is the chemical symbol for gold?",
+        options: ["Au", "Ag", "Cu", "Fe"],
+        answer: 0,
+      },
+      {
+        question: "Which is the largest land mammal?",
+        options: ["Elephant", "Lion", "Giraffe", "Hippopotamus"],
+        answer: 0,
+      },
+      {
+        question: "What is the tallest mountain in the world?",
+        options: ["Mount Everest", "K2", "Kangchenjunga", "Makalu"],
+        answer: 0,
+      },
     ];
+  
   
     private score: number = 0;
     private currentQuestion: number = 0;

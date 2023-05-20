@@ -1,9 +1,10 @@
 {
-  "compilerOptions": {
-    "target": "es6",
-    "module": "es6",
-    "outDir": "dist",
-    "strict": true
-  },
-  "include": ["src"]
-}
+    "compilerOptions": {
+      "target": "es6",
+      "module": "es6",
+      "outDir": "dist",
+      "strict": true
+    },
+    "include": ["src"]
+  }
+  
